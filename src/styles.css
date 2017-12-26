@@ -1,9 +1,15 @@
-body {
+html {
 	font-family: Helvetica, Geneva, Tahoma, sans-serif;
 	color: #1d0224;
-	background-color: #cdbced;
+	background: linear-gradient(45deg, rgb(113, 64, 169), rgb(254, 244, 135));
+	min-height: 100vh;
+	
+}
+
+body {	
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
+	
 }
 
 h1 {
