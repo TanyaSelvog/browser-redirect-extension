@@ -1,0 +1,27 @@
+body {
+	font-family: Helvetica, Geneva, Tahoma, sans-serif;
+	color: #1d0224;
+	background-color: #cdbced;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+
+h1 {
+	grid-column-start: 1;
+	grid-column-end: -1;
+	text-align: center;
+}
+
+ul {
+	padding-left: 0;
+	list-style-type: none;
+	line-height: 1.5;
+}
+
+section {
+	text-align: center;
+}
+
+:any-link {
+	color: inherit;
+}
