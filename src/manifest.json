@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "My Extension",
+	"version": "1.0",
+
+	"description": "Redirects users to better sites",
+
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"<all_urls>"
+	],
+
+	"background":{
+		"scripts": ["redirect.js"]
+	},
+
+	"web_accessible_resources":[
+		"index.html"
+	]
+
+}
